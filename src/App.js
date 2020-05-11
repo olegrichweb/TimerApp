@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import Input from './Components/InputHook';
+import Timer from './Components/Timer/index';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Timer 
+      time={60}
+      step={1000}
+      autostart={true}
+      />
+      <Timer
+      time={120}
+      step={2000}
+      autostart={false}
+      />
+      <div className="developer"><h3>HW17 Oleh Omelchenko</h3></div>
     </div>
+    
   );
 }
 

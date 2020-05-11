@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+* {
+    font-family: 'Indie Flower', cursive;
+    background-color:rgb(90, 2, 102);
+}
+
+
+button {
+  width: 120px;
+  height: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  margin-right: 10px;
+  background-color: rgb(8, 214, 241);
+  border: 1px solid black;
+  font-size: 30px;
+  outline: none;
+}
+button:hover {
+  width: 125px;
+  height: auto;
+  background-color: rgb(240, 225, 9);
+  cursor: pointer;
+}
+h1 {
+  color: blanchedalmond;
+  font-size: 50px;
+}
